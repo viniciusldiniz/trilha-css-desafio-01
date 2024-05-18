@@ -1,0 +1,181 @@
+/* Importa a fonte Raleway do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
+/* Reseta as margens e define o box-sizing para border-box em todos os elementos */
+* {
+  font-family: 'Raleway', sans-serif; /* Define a fonte padrão para todo o documento */
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* Estilos para o corpo do documento */
+body {
+    background-color: rgb(0, 0, 0); /* Define a cor de fundo do corpo como preto */
+}
+
+/* Estilos para cabeçalhos de H2 */
+h2 {
+    font-size: 2rem; /* Define o tamanho da fonte */
+    color: rgb(51, 168, 219); /* Define a cor do texto */
+    font-weight: bold; /* Define a espessura da fonte como negrito */
+    letter-spacing: 4px; /* Define o espaçamento entre caracteres */
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    margin-bottom: 24px; /* Define a margem inferior */
+}
+
+/* Estilos para parágrafos */
+p {
+    color: rgb(255, 255, 255); /* Define a cor do texto */
+}
+
+/* Estilos para as seções */
+section {
+    margin: 100px auto; /* Define as margens superior e inferior */
+}
+
+/* Estilos para o banner */
+.banner {
+  /* Define o plano de fundo usando uma imagem e um gradiente linear */
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .1), rgba(0, 0, 0, .6)), url('../images/banner.png');
+  background-size: cover; /* Define o tamanho do plano de fundo */
+  background-repeat: no-repeat; /* Evita que o plano de fundo se repita */
+  height: 600px; /* Define a altura do banner */
+  padding-top: 60px; /* Define o preenchimento superior */
+  border-bottom: 1px solid rgba(51, 168, 219, 0.5); /* Define uma borda na parte inferior */
+}
+
+/* Estilos para o conteúdo dentro do banner */
+.banner .banner-content {
+    color: rgb(255, 255, 255); /* Define a cor do texto */
+    width: 600px; /* Define a largura do conteúdo */
+    margin: auto; /* Centraliza o conteúdo horizontalmente */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+/* Estilos para o título dentro do banner */
+.banner h1 {
+    font-size: 2.5rem; /* Define o tamanho da fonte */
+    font-weight: 900; /* Define a espessura da fonte como negrito */
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    color: transparent; /* Torna o texto transparente */
+    background: -webkit-linear-gradient(rgb(51, 168, 219), rgb(20, 114, 183)); /* Define um gradiente de fundo */
+    background-clip: text; /* Aplica o gradiente apenas ao texto */
+    -webkit-background-clip: text; /* Aplica o gradiente apenas ao texto em navegadores WebKit */
+}
+
+/* Estilos para parágrafos dentro do banner */
+.banner p {
+    font-size: 1.25rem; /* Define o tamanho da fonte */
+    margin: 16px 0 24px; /* Define as margens superior, inferior e inferior */
+}
+
+/* Estilos para o logo dentro do banner */
+.banner .logo {
+    background-color: rgba(0, 0, 0, .2); /* Define a cor de fundo com transparência */
+    height: 260px; /* Define a altura */
+    width: 260px; /* Define a largura */
+    margin: auto; /* Centraliza o logo horizontalmente */
+    border-radius: 50%; /* Define a borda como arredondada */
+    padding: 16px; /* Define o preenchimento */
+    margin-bottom: 16px; /* Define a margem inferior */
+}
+
+/* Estilos para a imagem dentro do logo do banner */
+.banner .logo img {
+    margin: auto; /* Centraliza a imagem horizontalmente */
+    width: 100%; /* Define a largura como 100% */
+    height: 100%; /* Define a altura como 100% */
+    object-fit: contain; /* Mantém a proporção da imagem */
+}
+/* Estilos para o botão dentro do banner */
+.banner .banner-content button {
+    color: rgb(49, 168, 221); /* Define a cor do texto */
+    font-size: 1rem; /* Define o tamanho da fonte */
+    font-weight: bold; /* Define a espessura da fonte como negrito */
+    padding: 16px 32px; /* Define o preenchimento */
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    letter-spacing: 4px; /* Define o espaçamento entre caracteres */
+    background-color: transparent; /* Define a cor de fundo como transparente */
+    border-image: linear-gradient(rgb(59, 161, 205), rgb(21, 114, 183)); /* Define uma borda com gradiente */
+    border-image-slice: 10; /* Define a largura da borda */
+    border-radius: 30px; /* Define a borda como arredondada */
+}
+
+/* Estilos para o conteúdo do curso */
+#course-content {
+    width: 800px; /* Define a largura do conteúdo */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+/* Estilos para a lista de módulos do curso */
+#course-content .modules-list {
+    margin: 24px 0; /* Define as margens superior e inferior */
+}
+
+/* Estilos para os módulos individuais na lista de módulos do curso */
+#course-content .modules-list .module {
+    color: rgb(255, 255, 255); /* Define a cor do texto */
+    width: 530px; /* Define a largura */
+    margin: 0 auto 24px; /* Centraliza horizontalmente e define a margem inferior */
+    border: 1px solid rgb(51, 168, 219); /* Define uma borda */
+    background-color: rgb(37, 37, 37); /* Define a cor de fundo */
+    padding: 16px; /* Define o preenchimento */
+    border-radius: 100px; /* Define a borda como arredondada */
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7); /* Define uma sombra interna */
+}
+
+/* Estilos para os spans dentro dos módulos */
+#course-content .modules-list .module span {
+    color: rgb(51, 168, 219); /* Define a cor do texto */
+}
+
+/* Estilos para a seção "Transform the World" */
+#transform-world {
+    height: 560px; /* Define a altura */
+    background-size: cover; /* Define o tamanho do plano de fundo */
+    background-image: url("/assets/images/woman-code.png"); /* Define a imagem de fundo */
+    background-attachment: fixed; /* Fixa a imagem de fundo */
+    border-top: 1px solid rgba(51, 168, 219, 0.5); /* Define uma borda superior */
+    border-bottom: 1px solid rgba(51, 168, 219, 0.5); /* Define uma borda inferior */
+    padding: 200px; /* Define o preenchimento */
+}
+
+/* Estilos para parágrafos dentro da seção "Transform the World" */
+#transform-world p {
+    font-weight: 900; /* Define a espessura da fonte como negrito */
+    font-size: 2.5rem; /* Define o tamanho da fonte */
+    text-transform: lowercase; /* Transforma o texto em minúsculas */
+    max-width: 250px; /* Define a largura máxima */
+    text-shadow: 3px 2px rgb(51, 168, 219); /* Define uma sombra de texto */
+}
+
+/* Estilos para a seção "Desafios Profissionais" */
+#professional-challenges {
+    text-align: center; /* Alinha o texto ao centro */
+    width: 800px; /* Define a largura */
+}
+
+/* Estilos para as imagens dentro da seção "Desafios Profissionais" */
+#professional-challenges img {
+    margin: 32px 0; /* Define as margens superior e inferior */
+}
+
+/* Estilos para o rodapé */
+footer {
+    padding: 60px 0; /* Define o preenchimento */
+    text-align: center; /* Alinha o texto ao centro */
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2)); /* Define um gradiente de fundo */
+    border-top: 1px solid rgba(51, 168, 219, 0.5); /* Define uma borda superior */
+}
+
+/* Estilos para o logotipo da Dio no rodapé */
+footer .dio-logo {
+    width: 300px; /* Define a largura */
+}
+
+/* Estilos para links no rodapé */
+footer a {
+    color: rgb(51, 168, 219); /* Define a cor do texto */
+    font-weight: bold; /* Define a espessura da fonte como negrito */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
