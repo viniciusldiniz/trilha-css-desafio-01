@@ -1,7 +1,8 @@
 # Recriação e Aprimoramento de Projeto Prático de Desenvolvimento Web
 
 
-https://github.com/viniciusldiniz/trilha-css-desafio-01/assets/42078940/463e4057-341b-46a0-80f6-4f2676c4e358
+
+https://github.com/viniciusldiniz/trilha-css-desafio-01/assets/42078940/81921c78-8aa2-4a32-9b4d-862294f2b193
 
 
 Neste projeto, recriei e aprimorei um projeto prático de desenvolvimento web, 
