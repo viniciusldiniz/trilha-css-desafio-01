@@ -133,7 +133,7 @@ section {
 #transform-world {
     height: 560px; /* Define a altura */
     background-size: cover; /* Define o tamanho do plano de fundo */
-    background-image: url("/assets/images/woman-code.png"); /* Define a imagem de fundo */
+    background-image: url("../images/woman-code.png"); /* Define a imagem de fundo */
     background-attachment: fixed; /* Fixa a imagem de fundo */
     border-top: 1px solid rgba(51, 168, 219, 0.5); /* Define uma borda superior */
     border-bottom: 1px solid rgba(51, 168, 219, 0.5); /* Define uma borda inferior */
