@@ -102,18 +102,18 @@ section {
 }
 
 /* Estilos para o conteúdo do curso */
-.course-content {
+#course-content {
     width: 800px; /* Define a largura do conteúdo */
     text-align: center; /* Alinha o texto ao centro */
 }
 
 /* Estilos para a lista de módulos do curso */
-.course-content .modules-list {
+#course-content .modules-list {
     margin: 24px 0; /* Define as margens superior e inferior */
 }
 
 /* Estilos para os módulos individuais na lista de módulos do curso */
-.course-content .modules-list .module {
+#course-content .modules-list .module {
     color: rgb(255, 255, 255); /* Define a cor do texto */
     width: 530px; /* Define a largura */
     margin: 0 auto 24px; /* Centraliza horizontalmente e define a margem inferior */
@@ -125,12 +125,12 @@ section {
 }
 
 /* Estilos para os spans dentro dos módulos */
-.course-content .modules-list .module span {
+#course-content .modules-list .module span {
     color: rgb(51, 168, 219); /* Define a cor do texto */
 }
 
 /* Estilos para a seção "Transform the World" */
-.transform-world {
+#transform-world {
     height: 560px; /* Define a altura */
     background-size: cover; /* Define o tamanho do plano de fundo */
     background-image: url("../images/woman-code.png"); /* Define a imagem de fundo */
@@ -141,7 +141,7 @@ section {
 }
 
 /* Estilos para parágrafos dentro da seção "Transform the World" */
-.transform-world p {
+#transform-world p {
     font-weight: 900; /* Define a espessura da fonte como negrito */
     font-size: 2.5rem; /* Define o tamanho da fonte */
     text-transform: lowercase; /* Transforma o texto em minúsculas */
